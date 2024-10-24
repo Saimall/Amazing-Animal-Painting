@@ -1,0 +1,22 @@
+@import "@angular/material/prebuilt-themes/azure-blue.css";
+
+
+.product-card{
+    max-width: 150px;
+}
+
+
+body{
+    margin: 0%; font-family: Roboto,"Helvetica Neue","sans-sorif";
+}
+
+mat-card:hover{
+
+    transform: scale(1.05);
+    cursor: pointer;
+
+}
+
+mat-card{
+    transition: transform .2s;
+}
